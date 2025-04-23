@@ -1,53 +1,50 @@
-img {
-    height: 100px;
-    width: 200px;
-}
-h3{
-	text-align:center;
-}
-
-.header {
-    background-color: #011e29;
-    color: white;
-    text-align: center; /* Ensure text is centered */
-    height: 80px;
-    display: flex;
-    align-items: center; /* Center items vertically */
-    justify-content: center;	
-}
-
-.table {
-    display: flex;
-    justify-content: space-around;
-}
-
-.latest-news-section {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    height: 150px;
-    background-color: white;
-    border-radius: 20px;
-}
-
-.main-art {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: white;
-    width: 600px;
-    height: 200px;
-    border-radius: 20px;
-}
-
-.pictorial-news-section {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    height: 400px;
-    background-color: white;
-    border-radius: 20px;
-    text-align: center; /* Center text */
-    align-items: center;
-    justify-content: center;
-}
+/*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    background-color:#f5f5f5;
+  }
+  
+  header {
+  background-color: #011e29;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  }
+  
+  .hero-section {
+  vertical-align:top;
+  display:inline-block;
+  width:40%;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius:20px;
+  }
+  
+  .latest-news-section {
+  vertical-align:top;
+  background-color: white;
+  display:inline-block;
+  width:20%;
+  padding: 20px;
+  border-radius:20px;
+  }
+  
+  .pictorial-news-section {
+  vertical-align:top;
+  display:inline-block;
+  background-color: white;
+  width:20%;
+  padding: 20px;
+  text-align: center;
+  border-radius:20px;
+  }
+  
+  .container{
+  position:relative;
+  text-align:center;
+  margin-top:10px;
+  }
+  .pictorial-news-section img{
+  margin-top:10px;
+  }
