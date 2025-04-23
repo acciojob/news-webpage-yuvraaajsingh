@@ -1,37 +1,33 @@
-
-img{
-	height:100px;
-	width:200px;
+img {
+    height: 100px;
+    width: 200px;
 }
 
-.header{
-	background-color:#011e29;
-	color:white;
-	text-align:center;
-	height:80px;
-	display:flex;
-	align-content:center;
-	justify-content:center;	
+.header {
+    background-color: #011e29;
+    color: white;
+    text-align: center; /* Ensure text is centered */
+    height: 80px;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center;	
 }
 
-.table{
+.table {
     display: flex;
     justify-content: space-around;
-    
 }
 
-.latest-news-section{
+.latest-news-section {
     display: flex;
     flex-direction: column;
     width: 300px;
-    height:150px;
-    background-color:white;
+    height: 150px;
+    background-color: white;
     border-radius: 20px;
-	justify-content:center;
-
 }
 
-.main-art{
+.main-art {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -39,20 +35,16 @@ img{
     width: 600px;
     height: 200px;
     border-radius: 20px;
-	justify-content:center;
 }
 
-.pictorial-news-section{
+.pictorial-news-section {
     display: flex;
     flex-direction: column;
     width: 300px;
-    height:400px;
+    height: 400px;
     background-color: white;
     border-radius: 20px;
-	text-align:center;
+    text-align: center; /* Center text */
     align-items: center;
-	justify-content:center;
-    
+    justify-content: center;
 }
-
-	
